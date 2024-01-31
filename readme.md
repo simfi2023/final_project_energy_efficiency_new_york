@@ -2,6 +2,10 @@
 
 Welcome to this GitHub repository! Here, we embark on a journey to delve into the process of a machine learning project aimed at predicting residential gas and energy use. The data spans from 2007 to 2012, and captures insights from participants in the Home Performance with ENERGY STAR® program.
 
+
+This project was developed as part of a 3-month immersive data analytics bootcamp with Ironhack. Special thanks go to Ignacio Soteras, Simi Atawane and Sandra Hernandez for their invaluable contributions in teaching and facilitating the bootcamp.
+
+
 ## Background
 The Home Performance with ENERGY STAR® Program, a collaborative effort of the U.S. Environmental Protection Agency (EPA) and U.S. Department of Energy (DOE), stands as a beacon for promoting energy efficiency. The used data revolves around comparing estimated savings against normalized values derived from an open-source energy efficiency meter.
 
