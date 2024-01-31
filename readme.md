@@ -41,4 +41,47 @@ The goal is to craft machine learning models with the prowess to predict residen
 - The `models` folder houses the serialized models in pickle format for further use.
 
 
+## Model Conclusions
+
+### Gas Prediction 
+
+**Best Model:** Linear regression proves effective in predicting reporting gas.
+
+**Key Features:**
+- `climate_zone`, `weather_station`, `size_of_home`, `number_of_units`, `year_home_built`, and others.
+
+**Error Metrics:**
+- Mean Squared Error: 317.10
+- R-squared: 0.95 (TEST set), 0.92 (TRAIN set)
+
+### Electric Prediction 
+
+**Best Model:** Random forest excels in predicting reporting electric.
+
+**Key Features:**
+- `baseline_electric`, `size_of_home`, `year_home_built`, `total_project_cost`, `weather_station`, and others.
+
+**Error Metrics:**
+- Mean Squared Error: 2,557,843.63
+- R-squared: 0.90 (TEST set), 0.98 (TRAIN set)
+
+**Important Features:**
+- `baseline_electric` (0.92), `size_of_home` (0.02), `year_home_built` (0.01), `total_project_cost` (0.01), `weather_station` (0.01)
+
+### Total Project Cost Prediction 
+
+**Best Model:** Random forest excels in predicting total project cost.
+
+**Key Features:**
+- `climate_zone`, `weather_station-normalization`, `size_of_home`, `number_of_units`, `year_home_built`, and others.
+
+**Error Metrics:**
+- Mean Squared Error: 1,704,874.05
+- R-squared: 0.92 (TEST set), 0.98 (TRAIN set)
+
+**Important Features:**
+- `contractor_incentive` (0.70), `total_incentive` (0.16), `amount_financed_through_program` (0.07), `size_of_home` (0.02), `reporting_electric` (0.01)
+
+These conclusions summarize the performance of different models and highlight key features influencing predictions. Dive into each section for a detailed understanding of the models and their insights.
+
 
