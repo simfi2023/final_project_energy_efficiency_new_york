@@ -106,3 +106,29 @@ To replicate the analysis or contribute to the project, follow these steps:
 These conclusions summarize the performance of different models and highlight key features influencing predictions. Dive into each section for a detailed understanding of the models and their insights.
 
 
+## Findings
+
+### 1. Gas Usage Efficiency
+
+- **Statistical Assessment:**
+  - T-statistic: 25.33, P-value: 1.64e-130
+  - **Conclusion:** Significant difference; 'reporting_gas' mean surpasses 'baseline_gas'.
+  - **Alternative Hypothesis (H1):** Mean difference not equal to zero.
+
+### 2. Electricity Usage Efficiency
+
+- **Statistical Assessment:**
+  - T-statistic: 7.28, P-value: 4.04e-13
+  - **Conclusion:** Significant difference; 'baseline_electric' mean higher than 'reporting_electricity'.
+  - **Seasonal Influences:** Gas and electricity usage influenced by New York's distinct seasons.
+
+### Additional Considerations
+
+- **Seasonal Impact:**
+  - Projects concentrated from October to March, impacting winter months.
+  - Suggested extension of data to cover all 12 months for a comprehensive view.
+
+- **Long-Term Analysis:**
+  - Consideration of long-term data crucial for nuanced exploration of usage fluctuations.
+
+
