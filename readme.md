@@ -17,6 +17,27 @@ The used dataset backcasts estimated modeled savings for a subset of completed p
 ## Project Goal
 The goal is to craft machine learning models with the prowess to predict residential gas and energy usage post-project completion, alongside estimating total project costs. This journey involves extracting valuable insights from the Home Performance with ENERGY STAR® dataset and employing cutting-edge algorithms for predictive analytics.
 
+## Instructions
+
+To replicate the analysis or contribute to the project, follow these steps:
+
+1. **Clone the Repository:**
+   - Clone this repository to your local machine.
+
+     ```bash
+     git clone https://github.com/your-username/your-repository.git
+     ```
+
+2. **Install Dependencies:**
+   - Install the required dependencies listed in `requirements.txt`. Navigate to the project's root directory and run:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Explore the Notebooks:**
+   - Access the Jupyter notebooks in the `notebooks` directory to explore the analysis.
+
 
 ## Folder Structure:
 
